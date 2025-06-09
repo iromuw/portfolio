@@ -12485,24 +12485,24 @@ module.exports = require("path");
 /***/ }),
 
 /***/ "react":
-/*!**************************************************************************************!*\
-  !*** external "/Users/moyun/Side-Projects/my-portfolio/node_modules/react/index.js" ***!
-  \**************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** external "/Users/moyun/Side-Projects/portfolio/node_modules/react/index.js" ***!
+  \***********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/moyun/Side-Projects/my-portfolio/node_modules/react/index.js");
+module.exports = require("/Users/moyun/Side-Projects/portfolio/node_modules/react/index.js");
 
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*******************************************************************************************!*\
-  !*** external "/Users/moyun/Side-Projects/my-portfolio/node_modules/react-dom/server.js" ***!
-  \*******************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** external "/Users/moyun/Side-Projects/portfolio/node_modules/react-dom/server.js" ***!
+  \****************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/moyun/Side-Projects/my-portfolio/node_modules/react-dom/server.js");
+module.exports = require("/Users/moyun/Side-Projects/portfolio/node_modules/react-dom/server.js");
 
 /***/ }),
 
