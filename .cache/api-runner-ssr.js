@@ -9,7 +9,7 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-image',
       plugin: require('/Users/moyun/Side-Projects/portfolio/node_modules/gatsby-plugin-image/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"formats":["auto","webp"]},
     },{
       name: 'gatsby-plugin-sitemap',
       plugin: require('/Users/moyun/Side-Projects/portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
@@ -17,7 +17,7 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/moyun/Side-Projects/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Mori Wu","short_name":"Mori Wu","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"dedd91ab2778735e31d0a7ccbb422fb7"},
+      options: {"plugins":[],"name":"Mori Wu","short_name":"Mori Wu","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"aaa397847c0357908e840395c7564e5c"},
     },{
       name: 'gatsby-plugin-offline',
       plugin: require('/Users/moyun/Side-Projects/portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),

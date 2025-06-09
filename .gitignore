@@ -1,1 +1,13 @@
-node_modules
+# Gatsby
+.cache/
+public/
+
+# Node
+node_modules/
+
+# Husky (optional)
+.husky/_*
+
+# VSCode, macOS
+.DS_Store
+.vscode/

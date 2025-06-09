@@ -37,7 +37,8 @@ var plugins = [{
   name: 'gatsby-plugin-image',
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-image/gatsby-ssr */ "./node_modules/gatsby-plugin-image/gatsby-ssr.js"),
   options: {
-    "plugins": []
+    "plugins": [],
+    "formats": ["auto", "webp"]
   }
 }, {
   name: 'gatsby-plugin-sitemap',
@@ -67,7 +68,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "dedd91ab2778735e31d0a7ccbb422fb7"
+    "cacheDigest": "aaa397847c0357908e840395c7564e5c"
   }
 }, {
   name: 'gatsby-plugin-offline',

@@ -3,10 +3,10 @@ module.exports = [{
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
     },{
       plugin: require('../node_modules/gatsby-plugin-image/gatsby-browser.js'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"formats":["auto","webp"]},
     },{
       plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
-      options: {"plugins":[],"name":"Mori Wu","short_name":"Mori Wu","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"dedd91ab2778735e31d0a7ccbb422fb7"},
+      options: {"plugins":[],"name":"Mori Wu","short_name":"Mori Wu","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"aaa397847c0357908e840395c7564e5c"},
     },{
       plugin: require('../node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
